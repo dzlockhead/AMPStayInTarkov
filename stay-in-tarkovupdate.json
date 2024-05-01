@@ -79,5 +79,5 @@
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UnzipUpdateSource":true,
         "OverwriteExistingFiles":true
-    },
+    }
 }
