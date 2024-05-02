@@ -19,5 +19,13 @@
         "UpdateSourceData": "https://www.7-zip.org/a/7z2301-linux-x64.tar.xz",
         "UpdateSourceTarget": "{{$FullRootDir}}7-Zip",
         "OverwriteExistingFiles": true
+    },
+	{
+        "UpdateStageName":"7-Zip Files Extract",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"/bin/bash",
+        "UpdateSourceArgs":"-c 'cd ./StayInTarkov/7-Zip && /usr/bin/tar -xf 7z2301-linux-x64.tar.xz >/dev/null 2>&1 && rm -f 7z2301-linux-x64.tar.xz'",
+        "SkipOnFailure":false
     }
 ]
