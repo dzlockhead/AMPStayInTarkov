@@ -50,5 +50,20 @@
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c 'cd ./StayInTarkov/sit/ && rm -f Aki.Launcher.exe ; rm -f -r  EscapeFromTarkov_Data ; rm -f -r  BepInEx ; rm -f doorstop_config.ini ; rm -f winhttp.dll'"
+	},
+	{
+        "UpdateStageName":"SIT Server Mod Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases/download/1.6.4/SITCoop-1.6.4-WithAki3.8.0-2dd4d9-linux.tar.gz",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true
+    },
+	{
+		"UpdateStageName":"SIT Server Set Executable",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "{{$FullBaseDir}}Aki.Server.exe"
 	}
 ]
