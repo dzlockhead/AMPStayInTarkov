@@ -33,11 +33,17 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://dev.sp-tarkov.com/SPT-AKI/Stable-releases/releases/download/3.8.0/RELEASE-SPT-3.8.0-29197-2dd4d91.7z",
-        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UpdateSourceTarget": "{{$FullRootDir}}StayInTarkov",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": true
     },
-	
+	{
+        "UpdateStageName": "SPT Files Extract",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c 'cd ./StayInTarkov/sit/ && ../7-Zip/7zzs x -y RELEASE-SPT*.7z.001 >/dev/null 2>&1 && rm -f RELEASE-SPT*.7z.*'"
+    }
 	
 	
 
