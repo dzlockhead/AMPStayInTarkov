@@ -46,7 +46,7 @@
 	},
 	{
 		"DisplayName": "Use UPnP",
-		"Description": "Use UPnP for port forwarding. Default is on but you should probably have this off if you're hosting a server.",
+		"Description": "Use UPnP for port forwarding. Default is on but you should probably have this off if you're hosting a server and doing manual port forwarding. Only useful if your router supports UPnP",
 		"FieldName": "useUPNP",
 		"InputType": "checkbox",
 		"Category": "SIT Network Settings",
@@ -62,7 +62,7 @@
 	},
 	{
 		"DisplayName": "Binding IP",
-		"Description": "IP To Bind to, only change this if you know what you're doing",
+		"Description": "IP To Bind to, only change this if you know what you're doing. Default is 0.0.0.0",
 		"FieldName": "ip",
 		"InputType": "text",
 		"Category": "SIT Network Settings",

@@ -73,4 +73,19 @@
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c 'cd ./StayInTarkov/sit/ && rm -f SITCoop*tar.gz'"
 	},
+	{
+		"UpdateStageName": "SIT First Time Startup",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "StartApplication"
+	},
+	{
+		"UpdateStageName": "SIT Wait for Application Startup",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "WaitForStartupComplete"
+	},
+	{
+		"UpdateStageName": "SIT End First Time Startup",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "ShutdownApplication"
+	}
 ]
