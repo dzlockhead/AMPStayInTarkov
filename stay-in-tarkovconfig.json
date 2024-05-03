@@ -57,7 +57,6 @@
 		  "True": "true"
 		},
 		"Hidden": false,
-		"Required": true,
 		"IsFlagArgument":false,
 		"DefaultValue": "true"
 	},
@@ -69,7 +68,7 @@
 		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "ip",
-		"Hidden": true,
+		"Hidden": false,
 		"DefaultValue": "0.0.0.0",
 		"Placeholder": "0.0.0.0",
 		"IsFlagArgument":false,
@@ -88,7 +87,6 @@
 		  "True": "true"
 		},
 		"Hidden": false,
-		"Required": true,
 		"IsFlagArgument":false,
 		"DefaultValue": "false"
 	},
@@ -105,7 +103,6 @@
 		  "True": "true"
 		},
 		"Hidden": false,
-		"Required": true,
 		"IsFlagArgument":false,
 		"DefaultValue": "false"
 	},
@@ -122,7 +119,6 @@
 		  "True": "true"
 		},
 		"Hidden": false,
-		"Required": true,
 		"IsFlagArgument":false,
 		"DefaultValue": "false"
 	}
