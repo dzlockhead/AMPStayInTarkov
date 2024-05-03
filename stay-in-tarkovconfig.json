@@ -2,11 +2,11 @@
 	{
 		"DisplayName": "Main Game Port",
 		"Description": "Port used for the Game Connection",
-		"FieldName": "game_port",
+		"FieldName": "SITPort1",
 		"InputType": "number",
 		"Category": "network category",
 		"IncludeInCommandLine": false,
-		"ParamFieldName": "game_port",
+		"ParamFieldName": "port",
 		"minValue": "1025",
 		"maxValue": "39999",
 		"Hidden": true,
@@ -16,11 +16,11 @@
 	{
 		"DisplayName": "TCP Relay Port",
 		"Description": "Port used for the TCP Relay",
-		"FieldName": "web_port",
+		"FieldName": "SITPort2",
 		"InputType": "number",
 		"Category": "network category",
 		"IncludeInCommandLine": false,
-		"ParamFieldName": "web_port",
+		"ParamFieldName": "webSocketPort",
 		"minValue": "1025",
 		"maxValue": "39999",
 		"Hidden": true,
@@ -30,11 +30,11 @@
 	{
 		"DisplayName": "NAT Port",
 		"Description": "Port used for the NAT Helper",
-		"FieldName": "nat_port",
+		"FieldName": "SITPort3",
 		"InputType": "number",
 		"Category": "network category",
 		"IncludeInCommandLine": false,
-		"ParamFieldName": "nat_port",
+		"ParamFieldName": "natHelperPort",
 		"minValue": "1025",
 		"maxValue": "39999",
 		"Hidden": true,
@@ -44,11 +44,11 @@
 	{
 		"DisplayName": "Use UPnP",
 		"Description": "Use UPnP for port forwarding?",
-		"FieldName": "upnp_bool",
+		"FieldName": "useUPNP",
 		"InputType": "checkbox",
 		"Category": "network category",
 		"IncludeInCommandLine": false,
-		"ParamFieldName": "nat_port",
+		"ParamFieldName": "useUPNP",
 		"EnumValues": {
 		  "False": "false",
 		  "True": "true"
@@ -60,11 +60,11 @@
 	{
 		"DisplayName": "Binding IP",
 		"Description": "IP To Bind to, only change this if you know what you're doing",
-		"FieldName": "bind_ip",
+		"FieldName": "ip",
 		"InputType": "text",
 		"Category": "network category",
 		"IncludeInCommandLine": false,
-		"ParamFieldName": "bind_ip",
+		"ParamFieldName": "ip",
 		"Hidden": true,
 		"DefaultValue": "0.0.0.0",
 		"Placeholder": "0.0.0.0",
@@ -73,11 +73,11 @@
 	{
 		"DisplayName": "Open all exfils",
 		"Description": "All exfils open during match?",
-		"FieldName": "exfil_bool",
+		"FieldName": "openAllExfils",
 		"InputType": "checkbox",
 		"Category": "gameplay category",
 		"IncludeInCommandLine": false,
-		"ParamFieldName": "exfil_bool",
+		"ParamFieldName": "openAllExfils",
 		"EnumValues": {
 		  "False": "false",
 		  "True": "true"
@@ -89,11 +89,11 @@
 	{
 		"DisplayName": "Show player tags",
 		"Description": "Show player nameplates",
-		"FieldName": "player_plates_bool",
+		"FieldName": "showPlayerNameTags",
 		"InputType": "checkbox",
 		"Category": "gameplay category",
 		"IncludeInCommandLine": false,
-		"ParamFieldName": "player_plates_bool",
+		"ParamFieldName": "showPlayerNameTags",
 		"EnumValues": {
 		  "False": "false",
 		  "True": "true"
@@ -105,11 +105,11 @@
 	{
 		"DisplayName": "Show player tags when visible",
 		"Description": "Show player nameplates only when they are visible",
-		"FieldName": "player_plates_visible_bool",
+		"FieldName": "showPlayerNameTagsOnlyWhenVisible",
 		"InputType": "checkbox",
 		"Category": "gameplay category",
 		"IncludeInCommandLine": false,
-		"ParamFieldName": "player_plates_visible_bool",
+		"ParamFieldName": "showPlayerNameTagsOnlyWhenVisible",
 		"EnumValues": {
 		  "False": "false",
 		  "True": "true"
