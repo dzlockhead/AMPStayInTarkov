@@ -65,5 +65,12 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SetExecutableFlag",
         "UpdateSourceArgs": "{{$FullBaseDir}}Aki.Server.exe"
-	}
+	},
+	{
+        "UpdateStageName": "SIT Extra Files Delete",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c 'cd ./StayInTarkov/sit/ && rm -f SITCoop*tar.gz'"
+	},
 ]

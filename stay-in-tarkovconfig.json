@@ -1,1 +1,121 @@
-[]
+[
+	{
+		"DisplayName": "Main Game Port",
+		"Description": "Port used for the Game Connection",
+		"FieldName": "game_port",
+		"InputType": "number",
+		"Category": "network category",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "game_port",
+		"minValue": "1025",
+		"maxValue": "39999",
+		"Hidden": true,
+		"Required": true,
+		"DefaultValue": "6969"
+	},
+	{
+		"DisplayName": "TCP Relay Port",
+		"Description": "Port used for the TCP Relay",
+		"FieldName": "web_port",
+		"InputType": "number",
+		"Category": "network category",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "web_port",
+		"minValue": "1025",
+		"maxValue": "39999",
+		"Hidden": true,
+		"Required": true,
+		"DefaultValue": "6970"
+	},
+	{
+		"DisplayName": "NAT Port",
+		"Description": "Port used for the NAT Helper",
+		"FieldName": "nat_port",
+		"InputType": "number",
+		"Category": "network category",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "nat_port",
+		"minValue": "1025",
+		"maxValue": "39999",
+		"Hidden": true,
+		"Required": true,
+		"DefaultValue": "6971"
+	},
+	{
+		"DisplayName": "Use UPnP",
+		"Description": "Use UPnP for port forwarding?",
+		"FieldName": "upnp_bool",
+		"InputType": "enum",
+		"Category": "network category",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "nat_port",
+		"EnumValues": {
+		  "True": "true",
+		  "False": "false"
+		},
+		"Hidden": false,
+		"Required": true,
+		"DefaultValue": "true"
+	},
+	{
+		"DisplayName": "Binding IP",
+		"Description": "IP To Bind to, only change this if you know what you're doing",
+		"FieldName": "bind_ip",
+		"InputType": "text",
+		"Category": "network category",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "bind_ip",
+		"Hidden": true,
+		"DefaultValue": "0.0.0.0",
+		"Placeholder": "0.0.0.0",
+		"Required": true
+	},
+	{
+		"DisplayName": "Open all exfils",
+		"Description": "All exfils open during match?",
+		"FieldName": "exfil_bool",
+		"InputType": "enum",
+		"Category": "gameplay category",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "exfil_bool",
+		"EnumValues": {
+		  "True": "true",
+		  "False": "false"
+		},
+		"Hidden": false,
+		"Required": true,
+		"DefaultValue": "false"
+	},
+	{
+		"DisplayName": "Show player tags",
+		"Description": "Show player nameplates",
+		"FieldName": "player_plates_bool",
+		"InputType": "enum",
+		"Category": "gameplay category",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "player_plates_bool",
+		"EnumValues": {
+		  "True": "true",
+		  "False": "false"
+		},
+		"Hidden": false,
+		"Required": true,
+		"DefaultValue": "false"
+	},
+	{
+		"DisplayName": "Show player tags when visible",
+		"Description": "Show player nameplates only when they are visible",
+		"FieldName": "player_plates_visible_bool",
+		"InputType": "enum",
+		"Category": "gameplay category",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "player_plates_visible_bool",
+		"EnumValues": {
+		  "True": "true",
+		  "False": "false"
+		},
+		"Hidden": false,
+		"Required": true,
+		"DefaultValue": "false"
+	}
+]

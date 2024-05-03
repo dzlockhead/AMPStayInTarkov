@@ -1,0 +1,7 @@
+{
+    "webSocketPort": {{web_port}},
+    "natHelperPort": {{nat_port},
+    "useUPNP": {{upnp_bool}},
+    "useMessageWSUrlOverride": false,
+    "messageWSUrlOverride": "127.0.0.1:6969"
+}
