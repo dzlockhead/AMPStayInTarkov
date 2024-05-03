@@ -38,6 +38,13 @@
         "OverwriteExistingFiles": true
     },
 	{
+        "UpdateStageName":"SPT Files Extract",
+        "UpdateSourcePlatform":"Windows",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"cmd.exe",
+        "UpdateSourceArgs":"/C cd .\\StayInTarkov\\sit && ..\\7-Zip\\7zr.exe x -y RELEASE-SPT*.7z > NUL 2>&1 && del /Q /F RELEASE-SPT*.7z"
+    },
+	{
         "UpdateStageName": "SPT Files Extract",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
@@ -46,11 +53,27 @@
     },
 	{
         "UpdateStageName": "SPT Extra Files Delete",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "cmd.exe",
+        "UpdateSourceArgs": "/C cd .\\StayInTarkov\\sit\\ && del /F /Q Aki.Launcher.exe ; del /F /Q  EscapeFromTarkov_Data ; del /F /Q  BepInEx ; del /F /Q doorstop_config.ini ; del /F /Q winhttp.dll"
+	},
+	{
+        "UpdateStageName": "SPT Extra Files Delete",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c 'cd ./StayInTarkov/sit/ && rm -f Aki.Launcher.exe ; rm -f -r  EscapeFromTarkov_Data ; rm -f -r  BepInEx ; rm -f doorstop_config.ini ; rm -f winhttp.dll'"
 	},
+	{
+        "UpdateStageName":"SIT Server Mod Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases/download/1.6.4/SITCoop-1.6.4-WithAki3.8.0-2dd4d9-win.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true
+    },
 	{
         "UpdateStageName":"SIT Server Mod Download",
         "UpdateSourcePlatform": "Linux",
@@ -65,6 +88,13 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SetExecutableFlag",
         "UpdateSourceArgs": "{{$FullBaseDir}}Aki.Server.exe"
+	},
+	{
+        "UpdateStageName": "SIT Extra Files Delete",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "cmd.exe",
+        "UpdateSourceArgs": "/C cd .\\StayInTarkov\\sit\\ && rm -f SITCoop*.zip"
 	},
 	{
         "UpdateStageName": "SIT Extra Files Delete",
