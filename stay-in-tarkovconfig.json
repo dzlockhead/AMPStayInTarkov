@@ -2,7 +2,7 @@
 	{
 		"DisplayName": "Main Game Port",
 		"Description": "Port used for the Game Connection",
-		"FieldName": "SITPort1",
+		"FieldName": "$SITPort1",
 		"InputType": "number",
 		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
@@ -17,7 +17,7 @@
 	{
 		"DisplayName": "TCP Relay Port",
 		"Description": "Port used for the TCP Relay",
-		"FieldName": "SITPort2",
+		"FieldName": "$SITPort2",
 		"InputType": "number",
 		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
@@ -32,7 +32,7 @@
 	{
 		"DisplayName": "NAT Port",
 		"Description": "Port used for the NAT Helper",
-		"FieldName": "SITPort3",
+		"FieldName": "$SITPort3",
 		"InputType": "number",
 		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
@@ -46,7 +46,7 @@
 	},
 	{
 		"DisplayName": "Use UPnP",
-		"Description": "Use UPnP for port forwarding?",
+		"Description": "Use UPnP for port forwarding. Default is on but you should probably have this off if you're hosting a server.",
 		"FieldName": "useUPNP",
 		"InputType": "checkbox",
 		"Category": "SIT Network Settings",
@@ -77,7 +77,7 @@
 	},
 	{
 		"DisplayName": "Open all exfils",
-		"Description": "All exfils open during match?",
+		"Description": "This setting will enable or disable all exfils being available during the raid",
 		"FieldName": "openAllExfils",
 		"InputType": "checkbox",
 		"Category": "SIT Gameplay Settings",
@@ -94,7 +94,7 @@
 	},
 	{
 		"DisplayName": "Show player tags",
-		"Description": "Show player nameplates",
+		"Description": "Show player nameplates above their head",
 		"FieldName": "showPlayerNameTags",
 		"InputType": "checkbox",
 		"Category": "SIT Gameplay Settings",
@@ -111,7 +111,7 @@
 	},
 	{
 		"DisplayName": "Show player tags when visible",
-		"Description": "Show player nameplates only when they are visible",
+		"Description": "Show player nameplates only when they are in view",
 		"FieldName": "showPlayerNameTagsOnlyWhenVisible",
 		"InputType": "checkbox",
 		"Category": "SIT Gameplay Settings",
