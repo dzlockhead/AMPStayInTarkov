@@ -4,13 +4,14 @@
 		"Description": "Port used for the Game Connection",
 		"FieldName": "SITPort1",
 		"InputType": "number",
-		"Category": "network category",
+		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "port",
 		"minValue": "1025",
 		"maxValue": "39999",
 		"Hidden": true,
 		"Required": true,
+		"IsFlagArgument":false,
 		"DefaultValue": "6969"
 	},
 	{
@@ -18,13 +19,14 @@
 		"Description": "Port used for the TCP Relay",
 		"FieldName": "SITPort2",
 		"InputType": "number",
-		"Category": "network category",
+		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "webSocketPort",
 		"minValue": "1025",
 		"maxValue": "39999",
 		"Hidden": true,
 		"Required": true,
+		"IsFlagArgument":false,
 		"DefaultValue": "6970"
 	},
 	{
@@ -32,13 +34,14 @@
 		"Description": "Port used for the NAT Helper",
 		"FieldName": "SITPort3",
 		"InputType": "number",
-		"Category": "network category",
+		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "natHelperPort",
 		"minValue": "1025",
 		"maxValue": "39999",
 		"Hidden": true,
 		"Required": true,
+		"IsFlagArgument":false,
 		"DefaultValue": "6971"
 	},
 	{
@@ -46,7 +49,7 @@
 		"Description": "Use UPnP for port forwarding?",
 		"FieldName": "useUPNP",
 		"InputType": "checkbox",
-		"Category": "network category",
+		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "useUPNP",
 		"EnumValues": {
@@ -55,6 +58,7 @@
 		},
 		"Hidden": false,
 		"Required": true,
+		"IsFlagArgument":false,
 		"DefaultValue": "true"
 	},
 	{
@@ -62,12 +66,13 @@
 		"Description": "IP To Bind to, only change this if you know what you're doing",
 		"FieldName": "ip",
 		"InputType": "text",
-		"Category": "network category",
+		"Category": "SIT Network Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "ip",
 		"Hidden": true,
 		"DefaultValue": "0.0.0.0",
 		"Placeholder": "0.0.0.0",
+		"IsFlagArgument":false,
 		"Required": true
 	},
 	{
@@ -75,7 +80,7 @@
 		"Description": "All exfils open during match?",
 		"FieldName": "openAllExfils",
 		"InputType": "checkbox",
-		"Category": "gameplay category",
+		"Category": "SIT Gameplay Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "openAllExfils",
 		"EnumValues": {
@@ -84,6 +89,7 @@
 		},
 		"Hidden": false,
 		"Required": true,
+		"IsFlagArgument":false,
 		"DefaultValue": "false"
 	},
 	{
@@ -91,7 +97,7 @@
 		"Description": "Show player nameplates",
 		"FieldName": "showPlayerNameTags",
 		"InputType": "checkbox",
-		"Category": "gameplay category",
+		"Category": "SIT Gameplay Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "showPlayerNameTags",
 		"EnumValues": {
@@ -100,6 +106,7 @@
 		},
 		"Hidden": false,
 		"Required": true,
+		"IsFlagArgument":false,
 		"DefaultValue": "false"
 	},
 	{
@@ -107,7 +114,7 @@
 		"Description": "Show player nameplates only when they are visible",
 		"FieldName": "showPlayerNameTagsOnlyWhenVisible",
 		"InputType": "checkbox",
-		"Category": "gameplay category",
+		"Category": "SIT Gameplay Settings",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "showPlayerNameTagsOnlyWhenVisible",
 		"EnumValues": {
@@ -116,6 +123,7 @@
 		},
 		"Hidden": false,
 		"Required": true,
+		"IsFlagArgument":false,
 		"DefaultValue": "false"
 	}
 ]
