@@ -45,13 +45,13 @@
 		"DisplayName": "Use UPnP",
 		"Description": "Use UPnP for port forwarding?",
 		"FieldName": "upnp_bool",
-		"InputType": "enum",
+		"InputType": "checkbox",
 		"Category": "network category",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "nat_port",
 		"EnumValues": {
-		  "True": "true",
-		  "False": "false"
+		  "False": "false",
+		  "True": "true"
 		},
 		"Hidden": false,
 		"Required": true,
@@ -74,13 +74,13 @@
 		"DisplayName": "Open all exfils",
 		"Description": "All exfils open during match?",
 		"FieldName": "exfil_bool",
-		"InputType": "enum",
+		"InputType": "checkbox",
 		"Category": "gameplay category",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "exfil_bool",
 		"EnumValues": {
-		  "True": "true",
-		  "False": "false"
+		  "False": "false",
+		  "True": "true"
 		},
 		"Hidden": false,
 		"Required": true,
@@ -90,13 +90,13 @@
 		"DisplayName": "Show player tags",
 		"Description": "Show player nameplates",
 		"FieldName": "player_plates_bool",
-		"InputType": "enum",
+		"InputType": "checkbox",
 		"Category": "gameplay category",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "player_plates_bool",
 		"EnumValues": {
-		  "True": "true",
-		  "False": "false"
+		  "False": "false",
+		  "True": "true"
 		},
 		"Hidden": false,
 		"Required": true,
@@ -106,13 +106,13 @@
 		"DisplayName": "Show player tags when visible",
 		"Description": "Show player nameplates only when they are visible",
 		"FieldName": "player_plates_visible_bool",
-		"InputType": "enum",
+		"InputType": "checkbox",
 		"Category": "gameplay category",
 		"IncludeInCommandLine": false,
 		"ParamFieldName": "player_plates_visible_bool",
 		"EnumValues": {
-		  "True": "true",
-		  "False": "false"
+		  "False": "false",
+		  "True": "true"
 		},
 		"Hidden": false,
 		"Required": true,
