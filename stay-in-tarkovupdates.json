@@ -44,7 +44,7 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C cd .\\StayInTarkov\\sit && ..\\7-Zip\\7zr.exe x -y RELEASE-SPT*.7z > NUL 2>&1 && del /Q /F RELEASE-SPT*.7z"
+        "UpdateSourceArgs":"/C cd .\\StayInTarkov\\sit\\ && ..\\7-Zip\\7zr.exe x -y RELEASE-SPT*.7z > NUL 2>&1 && del /Q /F RELEASE-SPT*.7z"
     },
 	{
         "UpdateStageName": "SPT Files Extract",
