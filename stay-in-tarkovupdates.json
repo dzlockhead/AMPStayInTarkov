@@ -100,7 +100,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "cmd.exe",
-        "UpdateSourceArgs": "/C cd .\\StayInTarkov\\sit\\ && rm -f SITCoop*.zip"
+        "UpdateSourceArgs": "/C cd .\\StayInTarkov\\sit\\ && del -f SITCoop*.zip"
 	},
 	{
         "UpdateStageName": "SIT Extra Files Delete",
