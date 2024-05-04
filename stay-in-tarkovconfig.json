@@ -121,5 +121,37 @@
 		"Hidden": false,
 		"IsFlagArgument":false,
 		"DefaultValue": "false"
+	},
+	{
+		"DisplayName": "SPT Version",
+		"Description": "This is the SPT Version you want to download. THIS MUST MATCH THE SPT VERSION FOR SIT",
+		"FieldName": "SPTVersion",
+		"InputType": "Enum",
+		"Category": "SIT Version Settings",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "SPTVersion",
+		"EnumValues": {
+		  "3.8.0": "3.8.0",
+		},
+		"Hidden": false,
+		"IsFlagArgument":false,
+		"DefaultValue": "false"
+	},
+	{
+		"DisplayName": "SIT Version",
+		"Description": "This is the SIT Version you want to download. THE MAJOR VERSION MUST MATCH THE SPT VERSION FOR SPT",
+		"FieldName": "SITVersion",
+		"InputType": "Enum",
+		"Category": "SIT Version Settings",
+		"IncludeInCommandLine": false,
+		"ParamFieldName": "SITVersion",
+		"EnumValues": {
+		  "1.6.4AKI3.8.0-2dd4d9": "1.6.4 with AKI 3.8.0-2dd4d9",
+		},
+		"Hidden": false,
+		"IsFlagArgument":false,
+		"DefaultValue": "false"
 	}
+	
+	
 ]

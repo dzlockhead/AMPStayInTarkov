@@ -29,13 +29,15 @@
         "SkipOnFailure":false
     },
 	{
-        "UpdateStageName": "Download SPT AKI",
+        "UpdateStageName": "Download SPT AKI 3.8.0",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://dev.sp-tarkov.com/SPT-AKI/Stable-releases/releases/download/3.8.0/RELEASE-SPT-3.8.0-29197-2dd4d91.7z",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": true
+        "OverwriteExistingFiles": true,
+		"UpdateSourceConditionSetting": "SPTVersion",
+		"UpdateSourceConditionValue": "3.8.0"
     },
 	{
         "UpdateStageName":"SPT Files Extract",
@@ -66,22 +68,26 @@
         "UpdateSourceArgs": "-c 'cd ./StayInTarkov/sit/ && rm -f Aki.Launcher.exe ; rm -f -r  EscapeFromTarkov_Data ; rm -f -r  BepInEx ; rm -f doorstop_config.ini ; rm -f winhttp.dll'"
 	},
 	{
-        "UpdateStageName":"SIT Server Mod Download",
+        "UpdateStageName":"SIT Server Mod Download 1.6.4 with AKI 3.8.0",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases/download/1.6.4/SITCoop-1.6.4-WithAki3.8.0-2dd4d9-win.zip",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true
+		"UpdateSourceConditionSetting": "SITVersion",
+		"UpdateSourceConditionValue": "1.6.4AKI3.8.0-2dd4d9"
     },
 	{
-        "UpdateStageName":"SIT Server Mod Download",
+        "UpdateStageName":"SIT Server Mod Download 1.6.4 with AKI 3.8.0",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases/download/1.6.4/SITCoop-1.6.4-WithAki3.8.0-2dd4d9-linux.tar.gz",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true
+		"UpdateSourceConditionSetting": "SITVersion",
+		"UpdateSourceConditionValue": "1.6.4AKI3.8.0-2dd4d9"
     },
 	{
 		"UpdateStageName":"SIT Server Set Executable",
