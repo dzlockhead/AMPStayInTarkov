@@ -71,12 +71,12 @@ App.WakeupMode=Any
 App.ApplicationReadyMode=RegexMatch
 Console.FilterMatchRegex=\e\[(\d+;)*(\d+)?[ABCDHJKfmsu]|\e\[?[?\>\=\da-z]+
 Console.FilterMatchReplacement=
-Console.ThrowawayMessageRegex=(WARNING|ERROR): Shader.+
+Console.ThrowawayMessageRegex=
 Console.AppReadyRegex=^.*Server is running, do not close while playing SPT.*$
-Console.UserJoinRegex=^.*\[INFO\] (?<username>.+?) is now synced!$
-Console.UserLeaveRegex=^.*\[INFO\] (?<username>.+?) Connection Terminated$
-Console.UserChatRegex=^.*\[CHAT\] \(\d+\) <(?<username>.+?)> (?<message>.+)$
-Console.UpdateAvailableRegex=^\[\d\d:\d\d:\d\d\] \[INFO\] A new server update is available! v[\d\.]+.$
+Console.UserJoinRegex=
+Console.UserLeaveRegex=
+Console.UserChatRegex=
+Console.UpdateAvailableRegex=
 Console.MetricsRegex=
 Console.SuppressLogAtStart=False
 Console.ActivateLogRegex=
