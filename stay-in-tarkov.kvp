@@ -5,7 +5,7 @@ Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
 Meta.Author=dzlockhead and AMP Community
 Meta.URL=https://github.com/stayintarkov/SIT.Aki-Server-Mod
-Meta.DisplayImageSource=https://avatars.githubusercontent.com/u/151196584?s=200&v=4.jpg
+Meta.DisplayImageSource=https://github.com/dzlockhead/AMPStayInTarkov/blob/b2e1f443cd7ac9ae2bb91e23fde962ca2b3e3f04/StayInTarkovLogo.png
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=stay-in-tarkovconfig.json
 Meta.MetaConfigManifest=stay-in-tarkovmetaconfig.json
