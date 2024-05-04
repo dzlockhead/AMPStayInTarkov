@@ -123,7 +123,7 @@
 		"DefaultValue": "false"
 	},
 	{
-		"DisplayName": "SPT Version",
+		"DisplayName": "SPT AKI Version",
 		"Description": "This is the SPT Version you want to download. THIS MUST MATCH THE SPT VERSION FOR SIT",
 		"FieldName": "SPTVersion",
 		"InputType": "Enum",
@@ -135,7 +135,7 @@
 		},
 		"Hidden": false,
 		"IsFlagArgument":false,
-		"DefaultValue": "false"
+		"DefaultValue": "3.8.0"
 	},
 	{
 		"DisplayName": "SIT Version",
@@ -150,7 +150,7 @@
 		},
 		"Hidden": false,
 		"IsFlagArgument":false,
-		"DefaultValue": "false"
+		"DefaultValue": "1.6.4 with AKI 3.8.0-2dd4d9"
 	}
 	
 	
