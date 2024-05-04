@@ -1,7 +1,0 @@
-{
-    "ip": "{{bind_ip}}",
-    "port": {{game_port}},
-    "webSocketPingDelayMs": 90000,
-    "logRequests": true,
-    "serverImagePathOverride": {}
-}
