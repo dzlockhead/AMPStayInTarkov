@@ -98,25 +98,23 @@
         "UpdateStageName":"SIT Server Mod Download 1.6.4 with AKI 3.8.0",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases/download/1.6.4/SITCoop-1.6.4-WithAki3.8.0-2dd4d9-win.zip",
+        "UpdateSourceData": "SITCoop-{{SITVersion}}-win.zip",
+        "UpdateSourceArgs": "stayintarkov/SIT.Aki-Server-Mod",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
-		"UpdateSourceConditionSetting": "SITVersion",
-		"UpdateSourceConditionValue": "1.6.4AKI3.8.0-2dd4d9"
+        "DeleteAfterExtract": true
     },
 	{
         "UpdateStageName":"SIT Server Mod Download 1.6.4 with AKI 3.8.0",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases/download/1.6.4/SITCoop-1.6.4-WithAki3.8.0-2dd4d9-linux.tar.gz",
+        "UpdateSourceData": "SITCoop-{{SITVersion}}-tar.gz",
+        "UpdateSourceArgs": "stayintarkov/SIT.Aki-Server-Mod",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
-		"UpdateSourceConditionSetting": "SITVersion",
-		"UpdateSourceConditionValue": "1.6.4AKI3.8.0-2dd4d9"
+        "DeleteAfterExtract": true
     },
 	{
 		"UpdateStageName":"Make SIT Server Executable",
