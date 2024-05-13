@@ -109,7 +109,7 @@
         "UpdateStageName":"SIT Server Mod Download 1.6.4 with AKI 3.8.0",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "SITCoop-{{SITVersion}}-tar.gz",
+        "UpdateSourceData": "SITCoop-{{SITVersion}}-linux.tar.gz",
         "UpdateSourceArgs": "stayintarkov/SIT.Aki-Server-Mod",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
