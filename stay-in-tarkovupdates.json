@@ -36,6 +36,7 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
     },
 	{
         "UpdateStageName":"SPT Files Extract",
