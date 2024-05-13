@@ -71,7 +71,7 @@
         "SkipOnFailure": true
 	},
 	{
-        "UpdateStageName":"SIT Server Mod Download 1.6.4 with AKI 3.8.0",
+        "UpdateStageName":"SIT Server Mod Download",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "SITCoop-{{SITVersion}}-win.zip",
@@ -82,7 +82,7 @@
         "DeleteAfterExtract": true
     },
 	{
-        "UpdateStageName":"SIT Server Mod Download 1.6.4 with AKI 3.8.0",
+        "UpdateStageName":"SIT Server Mod Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "SITCoop-{{SITVersion}}-linux.tar.gz",
