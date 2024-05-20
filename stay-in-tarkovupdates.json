@@ -82,7 +82,7 @@
     },
     {
         "UpdateStageName":"SIT Server Mod Download",
-        "UpdateSourcePlatform":"Windows",
+        "UpdateSourcePlatform":"Linux",
         "UpdateSource":"FetchURL",
         "UpdateSourceData":"https://github.com/stayintarkov/SIT.Aki-Server-Mod/releases/download/{{SITVersion}}-linux.tar.gz",
         "UpdateSourceTarget":"{{$FullBaseDir}}",
