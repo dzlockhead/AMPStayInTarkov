@@ -93,7 +93,7 @@
         "FieldName":"SITReleaseVersion",
         "InputType":"enum",
         "ParamFieldName":"SITReleaseVersion",
-        "DefaultValue":"1.6.5-WithAki3.8.3-449288",
+        "DefaultValue":"1.6.5",
         "EnumValues":{
             "1.6.4":"1.6.4 with AKI 3.8.0",
             "1.6.5":"1.6.5 with AKI 3.8.3"
